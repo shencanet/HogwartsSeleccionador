@@ -13,6 +13,9 @@
         android:theme="@style/Theme.HogwartsSeleccionador"
         tools:targetApi="31">
         <activity
+            android:name=".SeleccionCasa"
+            android:exported="false" />
+        <activity
             android:name=".SeleccionarCasa"
             android:exported="false">
             <meta-data
